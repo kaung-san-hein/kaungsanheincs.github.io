@@ -1,0 +1,85 @@
+body {
+  background-color: #273746;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.title {
+  text-align: center;
+  margin-top: 55px;
+}
+
+.name {
+  font-family: "Noto Serif", serif;
+  font-size: 50px;
+  word-spacing: 10px;
+  margin: 0;
+  padding: 5px;
+}
+
+.work {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  padding: 5px;
+  margin: 0;
+}
+
+.icon a {
+  color: #ffffff;
+  font-size: 25px;
+  padding: 15px;
+}
+
+.content {
+  width: 1100px;
+  height: 350px;
+  margin: 40px 120px;
+}
+
+.pic {
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+  margin: 25px;
+  float: left;
+}
+
+.about-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+}
+
+.about-content {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    margin-top: 20px;
+  }
+  .name {
+    font-size: 30px;
+    word-spacing: 3px;
+  }
+
+  .content {
+    width: 300px;
+    margin: 10px 40px;
+  }
+
+  .pic {
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .about-title {
+    font-size: 18px;
+  }
+
+  .about-content {
+    font-size: 14px;
+  }
+}
